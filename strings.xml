@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cinema</string>
+
+    <string name="use1">WELCOME TO CH</string>
+    <string name="use2">Watch1</string>
+    <string name="use3">Watch2</string>
+    <string name="use4">Watch3</string>
+    <string name="use5">Watch4</string>
+    <string name="use6">Watch5</string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+
+    android:background="@color/usecolor1"
+    tools:context=".SecondActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/etText3"
+            android:layout_width="337dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="40dp"
+            android:padding="1dp"
+            android:text="All Trending Movies"
+            android:textColor="@color/usecolor3"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.058" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:src="@drawable/avg"
+
+
+            />
+        <Button
+            android:id="@+id/btnWatch1"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="@string/use2"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:src="@drawable/jk" />
+
+        <Button
+            android:id="@+id/btnWatch3"
+
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="@string/use3"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            />
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:src="@drawable/poc" />
+        <Button
+
+            android:id="@+id/btnWatch4"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="@string/use4"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            />
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:src="@drawable/hp" />
+        <Button
+
+            android:id="@+id/btnWatch5"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="@string/use5"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            />
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:src="@drawable/jw" />
+        <Button
+
+            android:id="@+id/btnWatch6"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="@string/use6"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
